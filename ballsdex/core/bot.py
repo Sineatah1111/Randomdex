@@ -64,8 +64,10 @@ class Translator(app_commands.Translator):
             TranslationContextLocation.other,
         ):
             return None
-        return string.message.replace("countryball", settings.collectible_name).replace(
-            "BallsDex", settings.bot_name
+        return (
+            string.message.replace("countryball", settings.collectible_name)
+            .replace("BallsDex", settings.bot_name)
+            .replace("coins", settings.currency_name)
         )
 
 
