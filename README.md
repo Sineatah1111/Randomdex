@@ -45,6 +45,6 @@ This repository is released under the [MIT license](https://opensource.org/licen
 
 If distributing this bot, credits to the original authors must not be removed.
 
-##info
+## info
 
-this is a parody of ballsdex that I just going to have random items from game to scoence
+this is a parody of ballsdex that is just going to have random items from games to science
