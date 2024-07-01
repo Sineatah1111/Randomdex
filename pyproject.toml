@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "ballsdex"
+name = "randomdex"
 version = "1.0.0a1"
-description = ""
+description = "A versatile Discord bot featuring Ballsdex and more."
 authors = ["laggron42 <laggron42@gmail.com>"]
 license = "MIT"
 
@@ -16,11 +16,11 @@ uvloop = { version = "^0.17.0", markers = "sys_platform != 'win32'" }
 
 # fastapi
 fastapi = "^0.109.1"
-fastapi-admin = {git = "https://github.com/fastapi-admin/fastapi-admin", rev = "0ed771026c776138aceb4ae98eeb5c976786a193"}
+fastapi-admin = { git = "https://github.com/fastapi-admin/fastapi-admin", rev = "0ed771026c776138aceb4ae98eeb5c976786a193" }
 uvicorn = "^0.24.0"
 
 # database ORM
-tortoise-orm = {extras = ["asyncpg"], version = "^0.20.0"}
+tortoise-orm = { extras = ["asyncpg"], version = "^0.20.0" }
 tortoise-cli = "^0.1.2"
 
 # misc
@@ -33,11 +33,10 @@ cachetools = "^5.3.1"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.5.0"
-black = {version = "^24.3.0", allow-prereleases = true}
+black = { version = "^24.3.0", allow-prereleases = true }
 flake8-pyproject = "^1.2.3"
 pyright = "^1.1.335"
 isort = "^5.12.0"
-
 
 [tool.poetry.group.metrics.dependencies]
 prometheus-client = "^0.16.0"
