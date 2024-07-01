@@ -44,3 +44,7 @@ Take a look at [the contribution guide](CONTRIBUTING.md) for setting up your env
 This repository is released under the [MIT license](https://opensource.org/licenses/MIT).
 
 If distributing this bot, credits to the original authors must not be removed.
+
+##info
+
+this is a parody of ballsdex that I just going to have random items from game to scoence
